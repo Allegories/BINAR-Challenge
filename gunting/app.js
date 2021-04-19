@@ -105,7 +105,7 @@ function game(playerChoice) {
 
 
 function playerWin() {
-    hasilGame.innerHTML = "MENANG SELAMAT DAPAT VOUCHER INDIHOME YANG SETIAP LAMBAT SELALU DISURUH RESTART MODEM";
+    hasilGame.innerHTML = "PLAYER 1 MENANG SELAMAT";
 }
 
 function comWin() {
@@ -113,5 +113,5 @@ function comWin() {
 }
 
 function draw() {
-    hasilGame.innerHTML = "DRAW YOU FOOL!";
+    hasilGame.innerHTML = "DRAW!";
 }
