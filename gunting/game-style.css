@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Poppins:400,500,700,800");
+
+:root {
+    /*Color*/
+    --background: #9C835F;
+    --backtick: #724C21;
+    --game-title: #F9B23D;
+    --name-player: #000;
+    --hover-selected: #C4C4C4;
+    --versus: #BD0000;
+
+    /*Font*/
+    --bold: 700;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-weight: var(--bold);
+    background-color: var(--background);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    margin: 20px 0 0 10px;
+}
+
+
+/* START GRID SYSTEM */
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0;
+    place-items: center;
+    width: 100%;
+    height: 669px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.grid-item-2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.grid-item-3{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.grid-item-4{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.grid-item-5{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.grid-item-6{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.grid-item-7{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.grid-item-8{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.grid-item-9{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.grid-item-10{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+/* END GRID SYSTEM */
+
+
+
+
+.selected {
+    background: #C4C4C4;
+    border-radius: 30px;
+    width: fit-content;
+    place-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+#player-batu img {
+    padding-top: 50px;
+}
+
+#player-gunting img,
+#player-kertas img {
+    padding-top: 20px;
+}
+
+
+.image:hover {
+    transform: rotate(30deg);
+    animation-name: hrk;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; 
+    transition: ease all;
+}
+
+
+
+
+
+
+.navbar {
+    display: flex;
+    margin-left: 1em;
+}
+
+.navbar img {
+    margin: auto;
+    margin-left: 2em;
+    width: 72px;
+    height: 72px;
+}
+
+.navbar h1 {
+    margin-left: 1em;
+}
+
+.backtick {
+    color: var(--backtick);
+}
+
+.player {
+    margin: 20px 0;
+}
+
+
+
+#vs {
+    font-weight: 700px;
+    color: #BD0000;
+    font-size: 100px;
+
+}
+
+#hasil {
+    color: white;
+    background-color: #4C9654;
+    width: 271.11px;
+    border-radius: 20px;
+    transform: rotate(-28.87deg);
+    padding: 20px;
+    object-fit: cover;
+}
+
+.hidden {
+    display: none;
+}
+

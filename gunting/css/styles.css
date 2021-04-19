@@ -1,0 +1,262 @@
+html {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+
+/* Global */
+font-family: 'Bebas Neue', cursive;
+font-family: 'Open Sans', sans-serif;
+
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 80px !important;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.font-weight-bold {
+    font-weight: bold !important;
+}
+
+
+.debug {
+    background-color: white;
+    color: white;
+}
+
+/* Custom util classes  */
+
+.page-holder {
+    min-height: 100vh;
+}
+
+.bg-cover {
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.border {
+    border: 1px white solid;
+    border-width: thin;
+}
+
+
+
+
+
+
+/* Navbar+first section */
+.bg-black {
+    background-color: black;
+    opacity: 60%;
+}
+
+.bg-black-transparent {
+    background-color: black;
+    opacity: 85%;
+}
+
+
+
+.navbar-nav {
+    text-align: center;
+}
+
+
+
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+
+/* @media screen and (min-width: 992px) {
+    #room {
+        margin-left: 33em;
+        color: red; 
+    }
+} */
+
+
+/* First Section */
+
+
+.btn-first-section {
+    background-color: #FFB548 !important;
+    color: black;
+    border: none;
+}
+
+
+/* Second-section */
+.icon {
+    margin-top: 250px;
+    margin-left: 50px;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    animation: arrow 700ms linear infinite;
+  }
+  
+  .arrow::after, .arrow::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    right: -8px;
+    background-color: #fff;
+  }
+  
+  .arrow::after {
+    top: -12px;
+    transform: rotate(45deg);
+  }
+  
+  .arrow::before {
+    top: 12px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+  }
+
+/* Third Section */
+
+
+.third-section {
+    margin-bottom: 480px;
+
+}
+
+.third-section h2 {
+    color: #FFB548;
+}
+.third-section p {
+    color: white;
+} 
+
+.circle {
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 10px;
+}
+
+
+.li-third {
+    margin-bottom: 300px;
+}
+
+
+.yellow-title {
+    color: #FFB548;
+    font-size: 1.3em;
+}
+
+
+
+/* Fifth Section */
+
+
+.fifth-section {
+    background-color:rgb(0, 0, 0); 
+    height: 800px;
+}
+
+.fifth-section img {
+    border-radius: 50%; 
+    width: 65.27px; 
+    height: 65.27px;
+}
+
+.fifth-section-button {
+    background-color: #FFB548; 
+    color: black; 
+    border: none;
+    font-size: 1em !important;
+}
+
+.fifth-section-card {
+    background: rgba(255, 255, 255, 0.08); 
+    border-radius: 10px;
+}
+
+.date {
+    font-size: 12px; 
+    color: #777777;
+}
+
+
+
+/* Sixth Section */
+
+.sixth-section-button {
+    background-color: #FFB548; 
+    color:black; 
+    border: none;
+    height: 50px;
+    font-size: 0.8em!important; 
+    font-weight: bold;
+}
+
+
+/* Footer section */
+
+footer {
+    width: 100%;
+}
+
+
+
