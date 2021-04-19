@@ -158,7 +158,9 @@ section {
 
 .backtick {
     color: var(--backtick);
+    cursor: pointer;
 }
+
 
 .player {
     margin: 20px 0;
